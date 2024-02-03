@@ -46,7 +46,7 @@ def gradient_diff(img1, img2):
     return cv2.absdiff(grad1, grad2)
 
 # Streamlit UI
-st.title("Enhanced Image Diff Viewer")
+st.title("Image Diff Viewer")
 
 # スライダーを追加
 contrast_slider = st.slider("Adjust Contrast", min_value=1.0, max_value=10.0, value=1.0, step=0.1)
